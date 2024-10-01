@@ -49,10 +49,20 @@ defmodule PortfolioWeb do
     end
   end
 
+
   def live_view do
     quote do
       use Phoenix.LiveView,
         layout: {PortfolioWeb.Layouts, :app}
+
+      unquote(html_helpers())
+    end
+  end
+
+  def main_layout do
+    quote do
+      use Phoenix.LiveView,
+        layout: {PortfolioWeb.Layouts, :main}
 
       unquote(html_helpers())
     end

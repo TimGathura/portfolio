@@ -17,7 +17,7 @@ defmodule PortfolioWeb.Router do
   scope "/", PortfolioWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    live "/", PortfolioLive
   end
 
   # Other scopes may use custom stacks.
