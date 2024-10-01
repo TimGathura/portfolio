@@ -3,3 +3,88 @@
 @import "tailwindcss/utilities";
 
 /* This file is for your main application CSS */
+@font-face {
+    font-family: 'Dangernight';
+    src: url('/fonts/Dangernight-vnZ5y.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Blacknorth';
+    src: url('/fonts/Blacknorthdemo-mLE25.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bushido';
+    src: url('/fonts/JapaneseBrushido-ZxRK.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ryujin';
+    src: url('/fonts/RyujinAttack-gxApE.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kaizen';
+    src: url('/fonts/JuzhoKaizen-LVR9y.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* This file is for your main application CSS */
+
+
+
+
+
+.border-section {
+    border: double 4px yellow;
+}
+
+.border-parent {
+    border: solid 1px green;
+}
+
+.border-child {
+    border: dashed 1px red;
+}
+
+.trifecta-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.trifecta-center-normal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: normal;
+}
+
+.trifecta-between {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trifecta-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-nav {
+    height: 120px;
+}

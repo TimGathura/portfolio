@@ -13,8 +13,20 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        dangernight: ['Dangernight', 'sans-serif'],
+        blacknorth: ['Blacknorth', 'sans-serif'],
+        bushido: ['Bushido', 'sans-serif'], //Incomplete
+        ryujin: ['Ryujin', 'sans-serif'], //
+        kaizen: ['Kaizen', 'sans-serif'], //Only caps
+      },
       colors: {
         brand: "#FD4F00",
+        text: "#E0E0E0", // Moonlit gray - For main text
+        primary: "#F2613F", // Tangerine dream - main 'pop' colour
+        accent: "#9B3922", // Spiced pumpkin - Supporting colour, use subtly
+        neutral: "#481E14", // Roasted chestnut - Secondary background,footers, hover states
+        base: "#0C0C0C", // Midnight espresso - Main background
       }
     },
   },
